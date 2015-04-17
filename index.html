@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>roshambo</title>
+    <link rel="shortcut icon" href="">
+    <script src="index.js"></script>
+    <script type='text/javascript' src="p5.min.js"></script>
+    <script type='text/javascript' src="p5.dom.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="//cdn.jsdelivr.net/emojione/1.3.0/lib/js/emojione.min.js">             </script>
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/emojione/1.3.0/assets/css/emojione.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    <style>body{padding-top:50px;}.starter-template{padding:40px 15px;text-align:center;}</style>
+
+    <!--[if IE]>
+        <script src="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+    
+    
+    
+<body>
+<div class="site-wrapper">
+    <div class="container">
+        
+        <div class="starter-template">
+            <h1>roshambo</h1>
+                <p class="lead">type in rock, paper, or scissors. you're playing against the computer. it's definitely not rigged. haha good luck.</p>
+        </div>
+        
+        <div class="row">
+            <div class="col-xs-6 col-xs-offset-3">
+            <div class="input-group">
+                <input type="text" class="form-control" id="user-input" placeholder="roshambo" onsubmit="play()">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button" onclick="play();">play</button>
+                </span>
+            </div>
+                </div>
+<!--
+            <form class="form-inline">
+                <input type="text" class="form-control" id="user-input" placeholder="roshambo" onsubmit="play()">
+                <input class="btn btn-default btn-sm" type="button" value="play" onclick="play();">
+            </form>
+-->
+        </div>
+        
+        <div class="row starter-template">
+            <div class="col-m-12">
+            <div id="outcome">
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+    
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>
